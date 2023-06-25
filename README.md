@@ -1,48 +1,34 @@
-# ETH-proof-Beginner-EVM-course
-In this we are making our project using solidity.
+# MetaCrafters Assignments
 
-# MyToken Solidity Contract
-This repository contains a basic implementation of a token contract called MyToken in Solidity.
+This repository contains my completed assignments for the MetaCrafters course. Each assignment is organized in its own folder, with the necessary code files and any additional resources.
 
-# Description
-In this project we are going to used mint function,burnt function and some more to perform the code.
+## Table of Contents
 
-## Overview
+- Assessment 1: JS-PROOF
+- Assessment 2: - ETH PROOF - Beginner Level 
+- Assessment 3: - ETH PROOF - Intermediate Level
+- Assessment 4: - POLY PROOF - Advanced Level
 
-The MyToken contract is a simple ERC-20 compatible token contract with minting and burning functionality. It allows users to create new tokens and destroy existing tokens based on certain conditions.
+## Getting Started
 
-The contract includes the following features:
+To get started with the assignments, follow these steps:
 
-- Public variables that store the details about the token, such as token name, token abbreviation, and total supply.
-- A mapping of addresses to balances to keep track of token balances for each address.
-- A mint function that increases the total supply by a specified amount and increases the balance of the sender's address.
-- A burn function that decreases the total supply by a specified amount and decreases the balance of the sender's address, with conditionals to ensure the sender has sufficient balance.
-
-## Usage
-
-1. Clone the repository
-
-2. Install the required dependencies, such as Solidity compiler
-
-3. Open the contract file `MyToken.sol` and customize the token details (token name, abbreviation, total supply) according to your requirements.
-
-4. Compile the contract using the Solidity compiler: To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
-
-5. Deploy the contract to a blockchain network of your choice using your preferred deployment method.
-
-6. Interact with the deployed contract using a compatible wallet or through a custom interface.
+1. Clone this repository: `git clone https://github.com/your-username/metacrafters-assignments.git`.
+2. Navigate to the specific assignment folder: `cd assignmentX` (replace `X` with the assignment number).
+3. Read the assignment description and requirements in the README file within each assignment folder.
+4. Complete the assignment by writing the necessary code and making any required changes.
+5. Test your code and ensure it meets the assignment requirements.
+6. Commit and push your changes to your GitHub repository.
 
 ## Contributing
 
-Contributions to this project are welcome. Feel free to open issues and submit pull requests to suggest improvements, add new features, or report bugs.
+Contributions to this repository are not accepted as it is for personal assignments. However, if you have suggestions or feedback, feel free to open an issue.
 
-When contributing, please ensure to follow the existing coding style and include appropriate test cases for any changes.
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to modify and distribute the code for personal and educational purposes.
 
 ## Authors
 
 Metacrafter Harsh Chaudhary
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
